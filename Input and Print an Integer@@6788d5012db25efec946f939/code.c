@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-   char f;
-   scanf("%c" , &f)
-   printf("You entered: %c" , f);
+   int f;
+   scanf("%d" , &f);
+   printf("You entered: %d" , f);
    return 0;
 };
