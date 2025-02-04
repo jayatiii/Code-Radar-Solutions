@@ -6,6 +6,7 @@ char* welcome() {
 
 int main() {
     float a;
-    printf("You entered: %f", &.4fa );
+    scamf("%f", &.4fa)
+    printf("You entered: %f", .4fa );
     return 0;
 }
