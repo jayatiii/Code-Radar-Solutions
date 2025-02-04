@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     float a;
-    scanf("%f", &.4fa);
-    printf("You entered: %f", .4fa );
+    scanf("%f", &a);
+    printf("You entered: %.4f", a);
     return 0;
 }
