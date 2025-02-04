@@ -5,6 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    printf("%s", welcome());
+    float a;
+    float b;
+    scanf("%f  %f", &a &b);
+    printf("Product: %f %f", a * b)
     return 0;
 }
