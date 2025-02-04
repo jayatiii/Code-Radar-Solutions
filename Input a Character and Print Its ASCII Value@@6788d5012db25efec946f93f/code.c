@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    char ch;
-    scanf("%c", &ch);
-    printf("ASCII Value: %d", ch);
+    char b;
+    scanf("%c", &b);
+    printf("ASCII Value: %d", b);
     return 0;
 }
