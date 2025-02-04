@@ -1,9 +1,9 @@
 #include <stdio.h>
-
-
 int main() {
-    float x;
-    scanf("%f", &x);
-    printf("You entered: %.2f", x);
+    float y
+    scanf("&f", &y);
+    printf("You entered: ", %y);
+    
+   
     return 0;
 }
