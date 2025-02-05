@@ -14,5 +14,4 @@ int main() {
         printf("False");
     }
     return 0;
-    return 0;
 }
