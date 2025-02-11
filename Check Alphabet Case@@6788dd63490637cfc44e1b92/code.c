@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    char a[99] ;  
-    scanf("%98s", a);  
+    char a ;  
+    scanf("%c", &a);  
     if (a >= 'A' && a <= 'Z') {
         printf("Uppercase"); 
     } else if (a >= 'a' && a <= 'z') {
