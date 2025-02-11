@@ -7,12 +7,12 @@ int main() {
     } else if (isalpha(a)) {
         a = tolower(a);
         if (a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u') {
-            printf("Vowel\n");
+            printf("Vowel");
         } else {
-            printf("Consonant\n");
+            printf("Consonant");
         }
     } else {
-        printf("Special character\n");
+        printf("Special character");
     }
     return 0;
 }
