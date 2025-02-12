@@ -1,22 +1,17 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     int a;
     scanf("%d", &a );
-    if(a == 0 || a == 1){
-        printf("Prime");
+    if (a == 0 || a == 1) {
+        printf("Not Prime");
+        return 0;
     }
-    else{
-        for (int i = 2; i < num; i++) {
-        if (num % i == 0) {
-            printf("%d is not a prime number.\n", num);
+    for (int i = 2; i < a; i++) {
+        if (a % i == 0) {
+            printf("Prime");
             return 0;
         }
     }
-    } 
+    printf("%d is a prime number.\n", a);
     return 0;
 }
