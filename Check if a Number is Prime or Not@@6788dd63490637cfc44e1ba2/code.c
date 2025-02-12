@@ -8,10 +8,10 @@ int main() {
     }
     for (int i = 2; i < a; i++) {
         if (a % i == 0) {
-            printf("Prime");
+            printf("Not Prime");
             return 0;
         }
     }
-    printf("%d is a prime number.\n", a);
+    printf("Prime");
     return 0;
 }
