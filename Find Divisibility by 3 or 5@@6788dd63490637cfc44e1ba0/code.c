@@ -17,7 +17,7 @@ int main() {
         printf("Divisible by 3");
     }
     else{
-        printf("Divisible by None");
+        printf("Not Divisible");
     }
     return 0;
 }
