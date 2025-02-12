@@ -19,7 +19,7 @@ int main() {
     }
     else if (c == '/'){
         if (b != 0)  
-            printf("Result: %d", a / b);
+            printf("%d", a / b);
         else
             printf("Error: Division by zero!");
     }
