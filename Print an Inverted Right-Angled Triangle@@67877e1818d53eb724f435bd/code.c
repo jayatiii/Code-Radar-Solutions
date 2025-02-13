@@ -11,7 +11,7 @@ int main() {
         for (int j = 0; j < i; j++) {  // Inner loop prints stars
             printf("*");
         }
-        printf("/n")
+        printf("/n");
     }
     
     return 0;
