@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a;
-    scanf("%d", &d);
+    scanf("%d", &a);
     for (int i = 0; i > a; i+=1;)
     printf("*");
     return 0;
